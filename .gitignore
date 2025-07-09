@@ -1,0 +1,39 @@
+# Virtual environment
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django default DB (if used temporarily)
+*.sqlite3
+
+# Environment variables
+.env
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled translation files
+*.mo
+
+# Coverage and test output
+.coverage
+htmlcov/
+coverage.xml
+
+# Migrations (optional to exclude if you regenerate them often)
+*/migrations/*.pyc
+*/migrations/__pycache__/
